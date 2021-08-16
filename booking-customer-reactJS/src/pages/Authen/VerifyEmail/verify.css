@@ -1,0 +1,183 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.form-warning{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FF7062;
+    transition: 0.5s ease all;
+    margin-top: 1px;
+}
+.leftPart{
+    width: 35.57291667%;
+}
+/* [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  } */
+  [type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+.resent{
+    border: 1px solid #FF7062;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FF7062;
+    padding: 10px 60px 10px 60px;
+}
+.toMain{
+    background: #FF7062;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 60px 10px 60px;
+    
+}
+.toMain:hover {
+   text-decoration: none;
+   color: #FFFFFF;
+   background: #FF7063;
+}
+
+.toMain2{
+    background: #FF7062;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 60px 10px 60px;
+    width: 220px;
+    display:block;
+}
+.loginPanelEmail{
+    padding-bottom: 29.6px;
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.8px;
+    line-height: 41px;
+    color: #5B5B5B;
+    text-align: center;
+}
+
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #E3E3E3;
+    box-shadow: none !important;
+    border-width: medium medium 2px;
+    padding-left: 10px;
+}
+
+/* stable */
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+    left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 20px;
+    transition: 0.5s ease all;
+}
+/* focus */
+.user-input-wrp input:focus ~ .floating-label
+{
+    top: 0px;
+	left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.5px;
+    line-height: 20px;
+    opacity: 1;
+    transition: 0.5s ease all;
+    color: #FF7062;
+    font-weight: bold;
+}
+
+.user-input-wrp input:focus
+{
+    border-color: #FF7062;
+    transition: 1.5s ease all;
+}
+
+
+/* no focus */
+.user-input-wrp input:not(:focus) ~ .floating-label{
+    position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+    transition: 0.5s ease all;
+    color: #A5A5A5;
+}
+
+.user-input-wrp input:not(:focus):valid
+{
+    border-color: #FF7062;
+    transition: 1.5s ease all;
+}
+.user-error{
+    visibility: hidden;
+}
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+    top: 0px;
+	left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.5px;
+    line-height: 20px;
+    opacity: 1;
+    transition: 0.5s ease all;
+    color: #FF7062;
+    font-weight: bold;
+}
+
+.resubmitBtn{
+    height: 44px;
+    width: 100%;
+    font-family: 'Inter';
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 10.6px;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #FF7062;
+}
+
+.pad-56{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.det3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A5A5A5;
+}
+    
+.det{
+    text-align: center;
+}

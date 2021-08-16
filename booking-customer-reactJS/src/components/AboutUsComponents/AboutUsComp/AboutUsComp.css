@@ -1,0 +1,336 @@
+.svgLOGO{
+    display: block;
+     margin: auto;
+}
+/* abUsBox */
+
+.abUsBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+
+.abUsLabel{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FF7062;
+    margin-bottom: 0px;
+}
+
+.abUsBox p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.abUsBox h3{
+    font-family: "Inter";
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 18px;
+}
+/* HowtoOrder */
+.howToOrderBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.howToOrderBox1{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.howToOrderBox li{
+    color: #FF7062;
+    margin: 30px 0px 30px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.howToOrderBox1 li{
+    color: #FF7062;
+    margin: 30px 0px 30px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.howToOrderBox li p{
+    color: black;
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.howToOrderBox1 li p{
+    color: black;
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* contactBox */
+
+.contactBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.contactBox h1{
+    color: #FF7062;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.contactBox span{
+    color: #FF7062;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.contactBox p{
+    color: black;
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* policyBox */
+.policyBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.policyBox p{
+    color: black;
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.policyBox label{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FF7062;
+    margin-top: 40px;
+
+}
+
+.policyBox li{
+    color: black;
+    margin: 30px 0px 0px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+/* termsBox */
+.termsBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.termsBox h1{
+    text-transform:uppercase;
+    color: black;
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.termsBox p{
+    color: black;
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.termsBox label{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FF7062;
+    margin-top: 40px;
+
+}
+/* howItWorksBox */
+.howItWorksBox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+.howItWorksBox ol.roman {
+    list-style-type: upper-roman;
+    margin-top: 10px;
+}
+
+.howItWorksBox ol.roman li{
+    color: black;
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.howItWorksBox ol.roman ol li{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* line-height: 41px; */
+    color: #FF7062;
+    margin-top: 10px;
+}
+
+.howItWorksBox ol.roman ol li ul li{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* FAQbox */
+.FAQbox{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+}
+  
+
+  .FAQbox   p {
+    border-top: 2px dashed;
+    border-color:  #FF7062 !important;
+    margin:0; padding: 30px;
+    counter-increment: "section";
+    position: relative;
+  }
+  
+  
+  
+  
+.FAQbox p:nth-child(even):before {
+    content: counter("section");
+    right: 100%; 
+    margin-right: -20px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    background-color:  #FF7062;
+    text-align:center;
+    color: white;
+    font-size: 110%;
+  }
+  
+  
+.FAQbox p:nth-child(odd):before {
+    content: counter("section");
+    left: 100%; 
+    margin-left: -20px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #FF7062;
+    text-align:center;
+    color: white;
+    font-size: 110%;
+  }
+  
+  
+  
+  
+.FAQbox p:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px; 
+    padding-right: 0;
+  }
+  
+  
+.FAQbox p:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px; 
+    padding-left: 0;
+  }
+  
+  
+.FAQbox p:first-child {
+    border-top: 0;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  }
+  
+  
+.FAQbox p:last-child {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+  }
+
+  .FAQbox p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 41px;
+    color: #FF7062;
+  }
+
+  .FAQbox h1{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 41px;
+    color: black;
+  }

@@ -1,0 +1,43 @@
+.react-datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 10px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+  }
+
+  .page-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 13px;
+    color: #5B5B5B;
+    font-weight: 600;
+    line-height: 22px;
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+  }
+
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #FF7062;
+    border-color: #E3E3E3;
+  }
+
+  .page-item.active .page-link {
+    background-color: #FF7062;
+    border-color: none;
+  }

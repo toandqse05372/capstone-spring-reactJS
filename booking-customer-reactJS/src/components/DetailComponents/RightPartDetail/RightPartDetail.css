@@ -1,0 +1,90 @@
+.rightPart{
+  position: sticky;
+  top: 90px;
+  padding: 1rem;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.rightPart p{
+  margin-left: 20px;
+}
+.p3 svg{
+  margin: 0px;
+}
+.rightPart .p1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5B5B5B;
+  
+}
+.rightPart .p2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 41px;
+  color: #FF7062;
+}
+.rightPart .p3{
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5B5B5B;
+}
+.rightPart .p4{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5B5B5B;
+  }
+.rightPart .p5{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5B5B5B;
+}
+.rightPart .p6{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5B5B5B;
+}
+.rightPart .p7{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5B5B5B;
+}
+
+.rightPartBtn{
+  height: 52px;
+  background: #FF7062;
+  border-radius: 10px;
+  margin: 1rem;
+
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+
+    font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rightPartIcon{
+  display: block;
+  margin: auto;
+}
+

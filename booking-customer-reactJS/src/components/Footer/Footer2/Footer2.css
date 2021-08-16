@@ -1,0 +1,136 @@
+
+body {
+  --col-deepblue: #FF7062;
+}
+
+footer {
+  /* width:100vw;
+  height: auto; */
+  /* position:fixed; */
+  /* bottom:0px */
+}
+#svgLG2{
+  margin: 0 auto;
+  margin-top: 10%;
+  /* margin-bottom: 50%; */
+  display: block;
+}
+
+footer div {
+  background-color: var(--col-deepblue);
+  margin: -50px 0px 0px 0px;
+  padding:0px;
+  text-align:center;
+}
+.copyRight{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.copyRight{
+  margin-top: 10px;
+}
+.wvSVG {
+  width:100%;
+  height: auto;
+  overflow:visible;
+}
+.fp1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.fp1:hover{
+  text-decoration: none;
+  font-size: 15px;
+  transition: .35s;
+}
+
+
+.headerFooter{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: #FF7062;
+}
+
+.drop {
+  fill: var(--col-deepblue);
+  animation: drop 3.2s linear infinite normal;
+  stroke: var(--col-deepblue);
+  strokeWidth:0.5;
+  transform: translateY(25px) ;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+.drop1 {
+  
+}
+.drop2 {
+  animation-delay: 3s;
+  animation-duration:3s;
+}
+.drop3 {
+  animation-delay: -2s;
+  animation-duration:3.4s;
+}
+.drop4 {
+  animation-delay: 1.7s;
+}
+.drop5 {
+  animation-delay: 2.7s;
+  animation-duration:3.1s;
+}
+.drop6 {
+  animation-delay: -2.1s;
+  animation-duration:3.2s;
+}
+.gooeff {
+  	filter: url(#goo);
+}
+#wave2 {
+  animation-duration:5s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity:.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(25px); 
+  }
+  30% {
+    transform: translateY(-10px) scale(.1);
+  }
+  30.001% {
+    transform: translateY(25px) scale(1); 
+  }
+  70% {
+    transform: translateY(25px); 
+  }
+  100% { 
+    transform: translateY(-10px) scale(.1);  
+  }
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
+
+

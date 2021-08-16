@@ -1,0 +1,52 @@
+.pPayment{
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #5B5B5B;
+}
+.ppPayment{
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: right;
+    color: #FF7062;;
+}
+.bookingBtn{
+    width: 221px;
+    height: 66px;
+    background: #FF7062;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.titlePayment{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;    
+    line-height: 20px;
+    color: #5B5B5B;
+    margin-bottom: 5px;
+}
+
+.deleteAllTitle{
+    width: 221px;
+    height: 66px;
+    vertical-align: middle;
+    display: table-cell;   
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5B5B5B;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+/* .quantityBox{
+    height: auto;
+    width: auto;
+    padding: 0.2rem;
+    color: #FF7062;
+    margin-left: -30px;
+} */
+
+.quantityBtn{
+    
+    height: 36px;
+    width: 36px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    margin: 0.5rem 0rem 0.5rem 0rem ;
+    text-align: center;
+    cursor: pointer;
+}
+
+.quantityBtn:hover {
+    background-color: #FF7062;
+    transition: ease-in-out 0.5s;
+  }
+
+  .quantityBtn button:hover {
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    transition: 1s;
+}
+.quantityBtn button {
+    -ms-user-select: none;
+    text-align: center;
+    line-height: 35px;
+    color: #FF7062;
+}
+
+.quantityBtn2 p {
+    text-align: center;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quantityBtn2{
+    height: 36px;
+    width: 36px;
+    border: none;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+} 

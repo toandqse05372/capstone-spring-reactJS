@@ -1,0 +1,36 @@
+.LeftTab{
+    background: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.LeftTabItem{
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.5px;
+    color: #5B5B5B;
+    line-height: 30px;
+    margin: 30px 30px 0px 30px;
+}
+
+.RighTab{
+    margin: 20px 10px 10px 40px;
+}
+
+.GobokiLogo{
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /* margin-top: auto; */
+}
+
+.nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      color: #fff;
+      background-color: #FF7062;
+    }

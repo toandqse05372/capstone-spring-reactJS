@@ -1,0 +1,12 @@
+.masthead2 {
+    height: 52vh;
+    /* min-height: 100px;   */
+    /* background-image: url('./img/headerbackground.png'); */
+    /* background-image: url('../../../img/headerbackground.png'); */
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+    url("../../../img/headerbackground.png");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 30px 30px;
+  }

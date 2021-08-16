@@ -1,0 +1,35 @@
+.sliderBox{
+    /* border: 1px solid green; */
+    border-radius: 30px;
+    overflow: hidden;
+}
+.containerSliderTOP{
+    margin-top: 100px;
+}
+@media (min-width: 900px) { 
+    .containerSliderTOP{
+        margin-top: -70px;
+    }
+ }
+
+ @media (min-width: 1025px) { 
+    .containerSliderTOP{
+        margin-top: -60px;
+    }
+ }
+ @media (min-width: 1155px) { 
+    .containerSliderTOP{
+        margin-top: -55px;
+    }
+ }
+ @media (min-width: 1280px) { 
+    .containerSliderTOP{
+        margin-top: -50px;
+    }
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1355px) { 
+    .containerSliderTOP{
+        margin-top: -30px;
+    }
+ }

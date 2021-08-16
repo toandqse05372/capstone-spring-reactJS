@@ -1,0 +1,122 @@
+/* PAID, UNPAID, SENT, EXPIRED */
+.detailTicketChildPAID{
+    border: 1px solid #197ACF;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #197ACF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.detailTicketChildUNPAID{
+    border: 1px solid #FF7062;  
+    border-radius: 20px 20px 0px 0px;
+    background-color: #FF7062;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+.notFoundOrderh1{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #5B5B5B;
+}
+
+.notFoundOrder{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  color: #5B5B5B;
+}
+.detailTicketChildSENT{
+    border: 1px solid #19CF78;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #19CF78;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.detailTicketChildEXPIRED{
+    border: 1px solid #E3E3E3;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #E3E3E3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5B5B5B;
+}
+.detailTicketChildEXPIRED .pushRight{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5B5B5B;
+    text-align: right;
+}
+
+.detailTicketChildEXPIRED .pushRight2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #5B5B5B;
+}
+/* arr */
+
+
+.circle1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.circle1 .fas{
+  color: #fff;
+  animation: bounce 1.5s linear infinite;
+}
+@keyframes bounce {
+  0%{
+    transform: translateY(-25px);
+    text-shadow: 0 0 20px #fff;
+  }
+  20%{
+    transform: translateY(0px);
+  }
+  40%{
+    transform: translateY(20px);
+  }
+  60%{
+    transform: translateY(0px);
+  }
+  80%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(100px);
+  }
+}
+
+
+

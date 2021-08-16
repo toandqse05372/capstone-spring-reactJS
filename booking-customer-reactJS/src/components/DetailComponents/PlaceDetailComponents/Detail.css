@@ -1,0 +1,189 @@
+ul.a{
+    list-style: url("../../../img/dots.png");
+    margin-left: 0;
+    padding-left: 2em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+   }
+
+   #inline{
+       
+       width:100%;
+       height:auto;
+       display:flex;
+    }
+
+   .bulletListCustome{
+    width: 9px;
+    height: 26px;
+    background-color: #FF7062;
+    margin:10px 10px 10px 0px;
+    }
+    
+    .content{
+        width: auto;
+        height: 28px;
+        margin:10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+     }
+     @media (min-width: 800px) { 
+        .content{
+            width: auto;
+            height: 28px;
+            margin:10px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+         }
+    }
+    @media (min-width: 1024px) { 
+        .content{
+            width: auto;
+            height: 28px;
+            margin:10px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+         }
+    }
+.longDescription{
+    padding-left: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.placeDetail{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+}
+
+.mapComp{
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+/* Large devices (desktops, 768px and up) */
+
+@media (min-width: 768px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 2.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .quantityBox{
+        height: auto;
+        width: auto;
+        padding: 0.2rem;
+        /* border: 2px solid #E3E3E3;
+        box-sizing: border-box;
+        border-radius: 10px; */
+        color: #FF7062;
+        /* margin-left: -30px; */
+        /* padding-left: 100px; */
+    }
+    .responsivetable{
+        display: none;
+    }
+}
+/* Large devices (desktops, 900px and up) */
+@media (min-width: 900px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 2.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .quantityBox{
+        height: auto;
+        width: auto;
+        padding: 0.2rem;
+        color: #FF7062;
+        margin-left: -30px;
+    }
+    .responsivetable{
+        display: none;
+    }
+}
+/* Large devices (desktops, 1025px and up) */
+
+@media (min-width: 1025px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 4.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .responsivetable{
+        display: table;
+    }
+}
+/* Large devices (desktops, 1155px and up) */
+
+@media (min-width: 1155px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 4.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .responsivetable{
+        display: table;
+    }
+}
+/* Large devices (desktops, 1280px and up) */
+
+@media (min-width: 1280px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 5.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .responsivetable{
+        display: table;
+    }
+}
+/* Extra large devices (large desktops, 1355px and up) */
+@media (min-width: 1355px) { 
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 5.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    }
+    .responsivetable{
+        display: table;
+    }
+}

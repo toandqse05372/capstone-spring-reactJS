@@ -1,0 +1,46 @@
+.notlogin h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #000000;
+}
+.notloginTOLOGIN {
+    background: #FF7062;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.notloginTOHOME{
+    border: 2px solid #FF7062;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF7062;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.notloginTOHOME:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.notloginTOLOGIN:hover{
+    text-decoration: none;
+    cursor: pointer;
+}

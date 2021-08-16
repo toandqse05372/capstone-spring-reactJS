@@ -1,0 +1,128 @@
+.ticketBox{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+    /* margin: 1rem; */
+}
+
+.datePickerbtn{
+    text-align: center;
+    line-height: 10rem;
+    border-radius: 10px;
+    color: brown;
+}
+
+.myTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5B5B5B;
+    cursor: pointer;
+}
+.myTitle1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5B5B5B;
+}
+.myTitleType{
+    width: 180.25px;
+    height: 58.4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5B5B5B;
+    vertical-align: middle;
+    display: table-cell;   
+    padding-left: 1rem;
+}
+
+.myTitlePrice{
+    width: 180.25px;
+    height: 58.4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 50px;
+    text-align: right;
+    color: #FF7062;
+    vertical-align: middle;
+    display: table-cell;   
+}
+.react-datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #E3E3E3 !important;
+    box-sizing: border-box !important;
+    border-radius: 10px !important;
+    display: inline-block;
+    position: relative;
+}
+      .react-datepicker__month-container {
+        float: center;
+        width: auto;
+        
+    }
+    .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+        margin-top: 0;
+        color: #000;
+        font-weight: bold;
+        font-size: 20px !important;
+        display: none;
+    }
+
+    .react-datepicker__header {
+        width: auto;
+        height: auto;
+        text-align: center;
+        background-color: #f0f0f0;
+        border-bottom: 1px solid #aeaeae;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        padding-top: 8px;
+        position: relative;
+        color: #FF7062;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 250;
+        font-size: 20px;
+    }
+
+    /* .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        color: #000;
+        display: inline-block;
+        width: 5.3rem !important;
+        line-height: 2rem !important;
+        text-align: center;
+        margin: 0.166rem;
+        font-family: "Inter";
+    } */
+    .react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover, .react-datepicker__month-text--selected:hover, .react-datepicker__month-text--in-selecting-range:hover, .react-datepicker__month-text--in-range:hover, .react-datepicker__quarter-text--selected:hover, .react-datepicker__quarter-text--in-selecting-range:hover, .react-datepicker__quarter-text--in-range:hover {
+        background-color: #FF7062 !important;
+        text-decoration: none;
+        font-family: "Inter";
+    }
+
+    .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range {
+        border-radius: 0.3rem;
+        background-color: #FF7062 !important;
+        color: #fff;
+        font-family: "Inter";
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .react-datepicker__year-read-view, .react-datepicker__month-read-view, .react-datepicker__month-year-read-view {
+        border: 1px solid transparent;
+        /* border-radius: 0.3rem; */
+        font-weight: 500;
+        font-size: 20px;
+    }

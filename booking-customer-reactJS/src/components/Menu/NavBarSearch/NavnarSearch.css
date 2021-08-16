@@ -1,0 +1,277 @@
+.subNabSearchBtn{
+    background: #FF7062;
+    border-radius: 0px 10px 10px 0px;
+    width: 100px;
+    height: 30px;
+}
+*,*:focus,*:hover{
+    outline:none;
+}
+.searchSubNavBar{
+    background: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    width: auto;
+    height: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A5A5A5;
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 900px) { 
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 130px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+
+ @media (min-width: 1025px) { 
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 150px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ @media (min-width: 1155px) { 
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 250px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ @media (min-width: 1280px) { 
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 80px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 350px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1355px) { 
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 100px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        max-width: 400px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+/* -------------------------- */
+/* @media (max-width: 1351px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 100px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 400px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ @media (max-width: 1303px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 100px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 350px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ @media (max-width: 1233px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+ @media (max-width: 1280px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 100px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 330px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+
+ 
+@media (max-width: 1024px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 150px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ }
+
+ @media (max-width: 1003px) {
+    .subNabSearchBtn{
+        background: #FF7062;
+        border-radius: 0px 10px 10px 0px;
+        width: 50px;
+        height: 30px;
+    }
+    .searchSubNavBar{
+        background: #F2F2F2;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+        width: 140px;
+        height: 30px;
+        font-weight: 600;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+ } */
